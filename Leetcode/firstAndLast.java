@@ -1,7 +1,5 @@
 //Find First and Last Position of Element in Sorted Array 34LC
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
 
 public class firstAndLast {
     public static void main(String[] args) {

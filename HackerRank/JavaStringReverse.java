@@ -1,4 +1,3 @@
-import java.io.*;
 import java.util.*;
 
 public class JavaStringReverse {
@@ -7,6 +6,7 @@ public class JavaStringReverse {
 
         Scanner sc = new Scanner(System.in);
         String A = sc.next();
+        sc.close();
         /* Enter your code here. Print output to STDOUT. */
         String rev = "";
         int len = A.length();
