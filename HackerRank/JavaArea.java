@@ -1,4 +1,3 @@
-import java.io.*;
 import java.util.*;
 
 public class JavaArea {
@@ -16,6 +15,7 @@ public class JavaArea {
 
         int breadth = scn.nextInt();
         int height = scn.nextInt();
+        scn.close();
 
         if (breadth <= 0 || height <= 0) {
             System.out.print("java.lang.Exception: Breadth and height must be positive");

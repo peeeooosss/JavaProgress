@@ -7,7 +7,7 @@ public class EmailDekh {
         Pattern emailPattern = Pattern.compile("[a-zA-Z0-9._%+-]+@[gmail.outlook]+\\.[a-zA-Z]{2,}");
 
         System.out.println("Welcome to Our Newsletter Subscription!");
-        System.out.println("Enter your email address to subscribe (type 'exit' to finish):");
+        System.out.println("Enter  your email address to subscribe (type 'exit' to finish):");
 
         while (scanner.hasNext()) {
             String userInput = scanner.next();
