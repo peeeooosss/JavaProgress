@@ -4,7 +4,7 @@ public class peakIndex {
         System.out.println(peakIndex(nums));
     
     }
-    public static int peakIndex(int[]arr){
+    public static int peakIndex(int[] arr){
         int start =  0;
         int end = arr.length -1;
 
